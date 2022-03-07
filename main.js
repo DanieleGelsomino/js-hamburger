@@ -10,4 +10,11 @@ dropDown.addEventListener('click', function(){
 
 });
 
+// seleziono l'icona close
+const closeDropDown = document.querySelector('.fa-times');
+// aggiungo evento display block al click
+closeDropDown.addEventListener('click', function(){ 
+    let closeMenu = document.querySelector(".hamburger-menu");
+    closeMenu.style.display='none';
+});
 
